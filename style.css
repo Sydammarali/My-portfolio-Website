@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+
+
+}
+
+.sidebar {
+
+    color: rgb(192, 236, 236);
+    background-image: url('images/Navbar-bg.jpg');
+    width: 210px;
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* position; */
+    /* transition-delay: -100ms;
+    transition-timing-function:ease-in; */
+}
+
+.sidebarGo {
+    transform: translate(-210px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+
+.sidebar nav li {
+
+    list-style: none;
+    padding: 33px 0;
+    font-size: 30px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(192, 236, 236);
+}
+
+.main {
+    background-image: url('images/index-bg.jpg');
+    background-repeat: repeat-y;
+    font-family: 'Libre Baskerville', serif;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    transition: transform 0.3s ease-in;
+
+}
+
+.mainGo {
+    transform: translate(210px, 0px);
+    position: absolute;
+}
+
+.form-img img {
+    height: 100vh;
+    width: 85vw;
+
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+
+}
+
+.ham {
+    background-color: ghostwhite;
+
+}
+
+.cross {
+    background-color: ghostwhite;
+    margin-left: -40px
+}
+
+
+
+.infoContainer {
+
+    color: rgb(38, 0, 73);
+    height: 60vh;
+    width: 90vw;
+    margin: 130px 0 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+    margin: 0 0 0 15px;
+    font-size: 16px;
+}
+
+.hello {
+    font-size: 2.6em;
+}
+
+.name {
+    font-size: 2.6em;
+
+}
+
+.about {
+    font-size: 2em;
+}
+
+.moreAbout {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    margin-top: 23px;
+    color: aliceblue;
+}
+
+.btn {
+    margin-top: 25px;
+    font-size: 6px;
+
+}
+
+.btn button {
+    padding: 7px 14px;
+    border-radius: 15px;
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+    background-color: darkslateblue;
+}
+
+.btn button:hover {
+    color: darkslateblue;
+    background-color: white;
+}
+
+.devpic img {
+    height: 80vh;
+
+
+
+}
+
+.contactForm {
+    font-family: 'Mulish', sans-serif;
+    padding: 0 34px;
+    background-image: url('images/form-bg.jpg');
+    background-repeat: round;
+    height: 100vh;
+    color: #5f0250;
+    
+}
+
+
+.contactForm h1 {
+    font-family: 'Merriweather', serif;
+    color: purple;
+    padding-top: 120px;
+    padding-bottom: 12px;
+    font-size: 35px;
+
+}
+
+.btn-sm {
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 6px;
+    margin: 5px 0px 15px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1px 4px 1px 3px;
+}
+
+.btn-sm:hover {
+    color: darkslateblue;
+    background-color: white;
+}
+
+
+.contactForm form div {
+    padding: 7px 0;
+}
+
+.contactForm form div input {
+
+    margin: 6px 0 0 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.mb-2 {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -6px
+}
+
+.mb-3 {
+
+    font-size: 13px;
+}
+
+.form-text {
+    font-size: 10px;
+    color: #ffffff;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.form-control {
+    width: 330px;
+}
+
+.form-check-input {
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 1600px) {
+    * {}
+
+
+
+    .devpic {
+        display: none;
+    }
+
+    .about-me .contactForm .blogContainer {
+        margin: 10px 3px 8px 3px;
+    }
+
+    .infoContainer {
+        margin: 50px 0px 0px 17px
+    }
+
+    .contactForm {
+        padding: 0 10px 0 10px;
+    }
+}
+
+
+@media (max-width: 1270px) {
+    .devInfo {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .form-control {
+        width: 230px;
+    }
+}
+
+@media (max-width: 290px) {
+
+    .infoContainer {
+        margin: 50px 0px 0px 8px;
+    }
+}

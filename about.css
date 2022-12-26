@@ -1,0 +1,105 @@
+.about-me {
+    background-image: url('images/index-bg.jpg');
+    background-repeat: repeat-y;
+    font-family: 'Libre Baskerville', serif;
+    background-attachment: fixed;
+    background-position: center center;
+    transition: transform 0.3s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-me h1 {
+    font-weight: bold;
+    font-size: 45px;
+    padding: 10px;
+    margin: 0px 0px 0px 40px;
+    font-family: 'PT Serif', serif;
+    color: darkturquoise;
+}
+
+.about-me h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    font-family: 'PT Serif', serif;
+    color: antiquewhite;
+}
+
+.about-me p {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Mulish', sans-serif;
+    margin: 0px 0 0px 18px;
+}
+
+.skillContainer {
+    padding: 12px;
+    color: aqua;
+    font-weight: bold;
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+}
+
+.skill {
+    width: 270px;
+    height: 6px;
+    background-color: #ff03b2;
+    border: 2px solid cyan;
+    border-radius: 5px;
+}
+
+
+.s1 {
+
+    margin-left: 30px;
+    width: 189px;
+}
+
+.s2 {
+
+    margin-left: 53px;
+    width: 162px;
+
+}
+
+.s3 {
+
+    margin-left: 8px;
+    width: 216px;
+}
+
+.s4 {
+
+    margin-left: 27px;
+    width: 189px;
+}
+
+
+.sp1 {
+    margin-left: 85px;
+}
+
+.sp2 {
+    margin-left: 111px;
+}
+
+.sp3 {
+    margin-left: 57px;
+}
+
+.sp4 {
+    margin-left: 85px;
+}
+
+.projects {
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
